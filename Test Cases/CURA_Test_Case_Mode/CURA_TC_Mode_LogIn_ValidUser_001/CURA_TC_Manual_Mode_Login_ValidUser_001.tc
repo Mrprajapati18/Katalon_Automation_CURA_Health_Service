@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_TC_Manual_Mode_Login_ValidUser_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f32edc67-e107-49b1-84a5-67e465d20303</testCaseGuid>
+</TestCaseEntity>

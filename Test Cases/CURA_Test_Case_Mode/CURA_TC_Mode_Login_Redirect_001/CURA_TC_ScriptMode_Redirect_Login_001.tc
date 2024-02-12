@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_TC_ScriptMode_Redirect_Login_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4d45ff8-c54c-4f33-a471-b9f7c2e7159d</testCaseGuid>
+</TestCaseEntity>

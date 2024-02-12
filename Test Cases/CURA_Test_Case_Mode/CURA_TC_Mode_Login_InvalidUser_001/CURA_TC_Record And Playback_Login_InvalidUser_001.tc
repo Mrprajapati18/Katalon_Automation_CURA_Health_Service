@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_TC_Record And Playback_Login_InvalidUser_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0024615d-f2fd-4f51-acdb-b2733c425e9b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_TC_Login_ValidUser_Name_001</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>9a768f98-4bc2-4f4f-a84c-f5789b81eb7f</testCaseGuid>
+</TestCaseEntity>

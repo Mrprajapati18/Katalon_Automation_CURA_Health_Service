@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_TC_ScriptMode_LogIn_ValidUser_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7c365156-6bbd-49d3-8272-9cd705f2ce57</testCaseGuid>
+</TestCaseEntity>
