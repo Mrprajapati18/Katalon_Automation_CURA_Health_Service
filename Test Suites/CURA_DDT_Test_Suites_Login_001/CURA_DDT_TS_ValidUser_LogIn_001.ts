@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CURA_DDT_TS_ValidUser_LogIn_001</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>945ae693-e2e7-4902-9776-0c25ad5645f3</testSuiteGuid>
+   <testCaseLink>
+      <guid>862ed4fc-824c-4874-83d6-3a13b91e93e9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CURA_Data Driven _LogIn_001/CURA_DDT_ValidUser_Login_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>eb91dfa8-ed3e-49e3-9602-f9b4bb19a0ab</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CURA_DDT_Data_Test_Login/CURA_DDT_Excel_ValidUser_Login_001</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>eb91dfa8-ed3e-49e3-9602-f9b4bb19a0ab</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>7a009bb9-8aaf-4dcb-84c4-e86d03656ca8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>eb91dfa8-ed3e-49e3-9602-f9b4bb19a0ab</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>730697a9-6178-491e-8342-a9a970bacc54</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

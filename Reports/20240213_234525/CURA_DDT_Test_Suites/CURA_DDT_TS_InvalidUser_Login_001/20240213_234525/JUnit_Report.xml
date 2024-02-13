@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CURA_DDT_TS_InvalidUser_Login_001" time="12.4" tests="1" failures="0" errors="0">
+   <testsuite name="CURA_DDT_TS_InvalidUser_Login_001" tests="1" failures="0" errors="0" time="12.4" skipped="0" timestamp="13-02-2024T23:45:30" hostname="Lenovo - 192.168.1.23" id="Test Suites/CURA_DDT_Test_Suites/CURA_DDT_TS_InvalidUser_Login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_CURA_Health_Service\\Reports\\20240213_234525\\CURA_DDT_Test_Suites\\CURA_DDT_TS_InvalidUser_Login_001\\20240213_234525"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_CURA_Health_Service\\Reports\\20240213_234525\\CURA_DDT_Test_Suites\\CURA_DDT_TS_InvalidUser_Login_001\\20240213_234525\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - 192.168.1.23"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.23"/>
+         <property name="sessionId" value="32094ece735993dbb90fdec86b90d183"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA_Data Driven _Test/CURA_DDT_InvalidUser__Login_001" time="12.101" classname="Test Cases/CURA_Data Driven _Test/CURA_DDT_InvalidUser__Login_001" status="PASSED">
+         <system-out><![CDATA[13-02-2024T23:45:30 - [TEST_CASE][PASSED] - Test Cases/CURA_Data Driven _Test/CURA_DDT_InvalidUser__Login_001: Test Cases/CURA_Data Driven _Test/CURA_DDT_InvalidUser__Login_001
+
+13-02-2024T23:45:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T23:45:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T23:45:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T23:45:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T23:45:33 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+13-02-2024T23:45:38 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+13-02-2024T23:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+13-02-2024T23:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+13-02-2024T23:45:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username"), UserName): Text 'John DOe' is set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username'
+
+13-02-2024T23:45:40 - [MESSAGE][PASSED] - Text 'John DOe' is set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username'
+
+13-02-2024T23:45:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password'
+
+13-02-2024T23:45:41 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password'
+
+13-02-2024T23:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+13-02-2024T23:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+13-02-2024T23:45:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T23:45:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T23:45:30 - [TEST_SUITE][PASSED] - CURA_DDT_TS_InvalidUser_Login_001: Test Cases/CURA_Data Driven _Test/CURA_DDT_InvalidUser__Login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

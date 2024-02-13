@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "4C81513F41A4CA562153B1E2B4FBA26D",
+  "keywordClasses": [
+    {
+      "name": "com.redirect.login.Customfunction_Redirect_login_001",
+      "keywordMethods": [
+        {
+          "name": "print",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

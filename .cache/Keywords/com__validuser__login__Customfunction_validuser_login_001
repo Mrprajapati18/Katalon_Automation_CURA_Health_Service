@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "488B8717FC51CAB303FF15DA3768DF0D",
+  "keywordClasses": [
+    {
+      "name": "com.validuser.login.Customfunction_validuser_login_001",
+      "keywordMethods": [
+        {
+          "name": "printHello",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
