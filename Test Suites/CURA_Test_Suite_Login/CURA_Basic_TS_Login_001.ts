@@ -17,6 +17,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9af986f4-d5f1-4d94-868b-48a2feb665cb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1cb54a38-71fc-487a-95b4-689d965282d6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2895af7f-9497-4e34-9426-34488fdc490d</guid>

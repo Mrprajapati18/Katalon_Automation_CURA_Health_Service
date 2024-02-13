@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Setup and TearDown_TS_Login_001,,,,14-02-2024 02:08:10,14-02-2024 02:08:11,0.579s,PASSED
+,,,,,,,
+Test Cases/CURA_TC_Setup And TearDown/CURA_TC_SetUp And TearDown_Login_001,,,,14-02-2024 02:08:10,14-02-2024 02:08:11,0.114s,PASSED
+"println(""I am inside tset case CURA_TC_SetUp And TearDown_Login_001"")",,,,14-02-2024 02:08:11,14-02-2024 02:08:11,0.005s,PASSED
