@@ -27,35 +27,35 @@ class CURATestListerner_LogIn {
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@BeforeTestCase
-	def onTestCaseStart() {
-		println(" I Am inside testcasestart Function ")
-	}
+	//@BeforeTestCase
+//	def onTestCaseStart() {
+//		println(" I Am inside testcasestart Function ")
+//	}
 	
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
-	 */
-	@AfterTestCase
-	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-		println(" I Am sampleAfterTestCase Function ")
-	}
+//	 */
+//	@AfterTestCase
+//	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+//		println(" I Am sampleAfterTestCase Function ")
+//	}
 
 	/**
 	 * Executes before every test suite starts.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-	@BeforeTestSuite
-	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-		println(" I Am sampleBeforeTestSuite Function ")
-	}
+//	@BeforeTestSuite
+//	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+//		println(" I Am sampleBeforeTestSuite Function ")
+//	}
 
 	/**
 	 * Executes after every test suite ends.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-	@AfterTestSuite
-	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-		println(" I Am sampleAfterTestSuite Function ")
-	}
+//	@AfterTestSuite
+//	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+//		println(" I Am sampleAfterTestSuite Function ")
+//	}
 }

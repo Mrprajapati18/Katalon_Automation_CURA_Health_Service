@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CURA_TC_Login_ValidUser_Name_001</name>
-   <tag>smoke</tag>
+   <name>CURA_Local variable_validUser_Login_001</name>
+   <tag></tag>
    <comment></comment>
-   <testCaseGuid>9a768f98-4bc2-4f4f-a84c-f5789b81eb7f</testCaseGuid>
+   <testCaseGuid>e926af62-aab1-4622-b79c-d272a5416044</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9af986f4-d5f1-4d94-868b-48a2feb665cb</variableId>
+      <variableId>d9ca83fd-9cb6-4a7e-9b21-6eb0b24e6ee7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1cb54a38-71fc-487a-95b4-689d965282d6</variableId>
+      <variableId>d5dc3b8c-cd5f-40f3-a9a9-7842d53728ce</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>9af986f4-d5f1-4d94-868b-48a2feb665cb</id>
+      <id>d9ca83fd-9cb6-4a7e-9b21-6eb0b24e6ee7</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>1cb54a38-71fc-487a-95b4-689d965282d6</id>
+      <id>d5dc3b8c-cd5f-40f3-a9a9-7842d53728ce</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>

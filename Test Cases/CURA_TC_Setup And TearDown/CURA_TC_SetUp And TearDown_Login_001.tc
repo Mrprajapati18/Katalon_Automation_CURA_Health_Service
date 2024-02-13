@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_TC_SetUp And TearDown_Login_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eea1d6b4-fc9c-4897-bede-2ca1b5f93145</testCaseGuid>
+</TestCaseEntity>
