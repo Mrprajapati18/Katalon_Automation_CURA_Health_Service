@@ -1,0 +1,1 @@
+{"testCaseName":"Test Cases/CURA_Data Driven _LogIn_001/CURA_DDT_InvalidUser__Login_001","testCaseId":"Test Cases/CURA_Data Driven _LogIn_001/CURA_DDT_InvalidUser__Login_001","iterationVariableName":"","bindedValues":{"UserName":"\u0027John DOe\u0027","Password":"\u0027ThisIsNotAPassword\u0027"}}

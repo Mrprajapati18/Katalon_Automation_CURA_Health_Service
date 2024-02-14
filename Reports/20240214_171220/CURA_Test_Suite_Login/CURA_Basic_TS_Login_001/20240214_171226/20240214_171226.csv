@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Basic_TS_Login_001,Chrome 121.0.0.0,,,14-02-2024 17:13:43,14-02-2024 17:15:22,1m - 38.586s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001,Chrome 121.0.0.0,,smoke,14-02-2024 17:13:43,14-02-2024 17:14:03,19.430s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 17:13:44,14-02-2024 17:13:46,2.060s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,14-02-2024 17:13:46,14-02-2024 17:13:57,11.043s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,14-02-2024 17:13:57,14-02-2024 17:14:00,3.091s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 121.0.0.0,,,14-02-2024 17:14:00,14-02-2024 17:14:01,0.867s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,14-02-2024 17:14:01,14-02-2024 17:14:01,0.568s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,14-02-2024 17:14:01,14-02-2024 17:14:03,1.369s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,14-02-2024 17:14:03,14-02-2024 17:14:03,0.176s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_InvalidUser_Name_001,Chrome 121.0.0.0,,smoke,14-02-2024 17:14:03,14-02-2024 17:14:24,21.582s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 17:14:03,14-02-2024 17:14:04,0.774s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,14-02-2024 17:14:04,14-02-2024 17:14:21,17.411s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,14-02-2024 17:14:21,14-02-2024 17:14:22,0.792s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username""), ""John DOe"")",Chrome 121.0.0.0,,,14-02-2024 17:14:22,14-02-2024 17:14:23,0.812s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,14-02-2024 17:14:23,14-02-2024 17:14:23,0.441s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,14-02-2024 17:14:23,14-02-2024 17:14:24,1.065s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,14-02-2024 17:14:24,14-02-2024 17:14:24,0.181s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_Redirect_page_001,Chrome 121.0.0.0,,,14-02-2024 17:14:24,14-02-2024 17:15:22,57.304s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 17:14:24,14-02-2024 17:14:25,0.767s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,14-02-2024 17:14:25,14-02-2024 17:15:17,51.362s,PASSED
+"click(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,14-02-2024 17:15:17,14-02-2024 17:15:18,1.047s,PASSED
+"setText(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 121.0.0.0,,,14-02-2024 17:15:18,14-02-2024 17:15:19,0.890s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,14-02-2024 17:15:19,14-02-2024 17:15:19,0.444s,PASSED
+"click(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,14-02-2024 17:15:19,14-02-2024 17:15:21,1.614s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,14-02-2024 17:15:21,14-02-2024 17:15:22,0.981s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,14-02-2024 17:15:22,14-02-2024 17:15:22,0.122s,PASSED

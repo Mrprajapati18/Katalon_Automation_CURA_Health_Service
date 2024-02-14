@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_Local variable_Invalid User_Login_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdce8798-9605-4a47-848b-19890ca7aaa8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>562f461f-9371-45c6-a38a-3b08734e42d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e313710f-9d0d-4e41-a14d-cd276231a450</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John DOe'</defaultValue>
+      <description></description>
+      <id>562f461f-9371-45c6-a38a-3b08734e42d4</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>e313710f-9d0d-4e41-a14d-cd276231a450</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

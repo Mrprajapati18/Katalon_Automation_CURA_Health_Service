@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CURA_TS_Basic_Make Appointment_Providing Details_002" time="64.948" tests="4" failures="0" errors="0">
+   <testsuite name="CURA_TS_Basic_Make Appointment_Providing Details_002" tests="4" failures="0" errors="0" time="64.948" skipped="0" timestamp="14-02-2024T17:12:33" hostname="Lenovo - 192.168.1.4" id="Test Suites/CURA_Test_Suite_Make Appointment/CURA_TS_Basic_Make Appointment_Providing Details_002">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_CURA_Health_Service\\Reports\\20240214_171220\\CURA_Test_Suite_Make Appointment\\CURA_TS_Basic_Make Appointment_Providing Details_002\\20240214_171224"/>
+         <property name="logFiles" value="C:\\Users\\Lenovo\\git\\Katalon_Automation_CURA_Health_Service\\Reports\\20240214_171220\\CURA_Test_Suite_Make Appointment\\CURA_TS_Basic_Make Appointment_Providing Details_002\\20240214_171224\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lenovo - 192.168.1.4"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Firefox 122.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="a283f07f-a09e-41b2-b4dc-9b675806a532"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_InvalidUser_Name_001" time="17.147" classname="Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_InvalidUser_Name_001" status="PASSED">
+         <system-out><![CDATA[14-02-2024T17:12:33 - [TEST_CASE][PASSED] - Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_InvalidUser_Name_001: Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_InvalidUser_Name_001
+
+14-02-2024T17:12:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-02-2024T17:12:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+14-02-2024T17:12:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-02-2024T17:12:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-02-2024T17:12:38 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:12:45 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username"), "John DOe"): Text 'John DOe' is set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:12:47 - [MESSAGE][PASSED] - Text 'John DOe' is set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:12:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:12:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:12:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:12:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-02-2024T17:12:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001" time="11.823" classname="Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001" status="PASSED">
+         <system-out><![CDATA[14-02-2024T17:12:50 - [TEST_CASE][PASSED] - Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001: Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001
+
+14-02-2024T17:12:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-02-2024T17:12:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+14-02-2024T17:12:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-02-2024T17:12:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-02-2024T17:12:53 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:12:57 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:12:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:12:59 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:12:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:13:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:13:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-02-2024T17:13:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_Redirect_page_001" time="16.527" classname="Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_Redirect_page_001" status="PASSED">
+         <system-out><![CDATA[14-02-2024T17:13:02 - [TEST_CASE][PASSED] - Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_Redirect_page_001: Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_Redirect_page_001
+
+14-02-2024T17:13:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-02-2024T17:13:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+14-02-2024T17:13:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-02-2024T17:13:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-02-2024T17:13:05 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:13:09 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:13:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:13:11 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:13:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:13:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:13:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-02-2024T17:13:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-02-2024T17:13:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+14-02-2024T17:13:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-02-2024T17:13:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-02-2024T17:13:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-02-2024T17:13:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CURA_Test_Case/CURA_TC_Make Appointment/CURA_TC_Make Appointment_providingDetails_002" time="19.208" classname="Test Cases/CURA_Test_Case/CURA_TC_Make Appointment/CURA_TC_Make Appointment_providingDetails_002" status="PASSED">
+         <system-out><![CDATA[14-02-2024T17:13:18 - [TEST_CASE][PASSED] - Test Cases/CURA_Test_Case/CURA_TC_Make Appointment/CURA_TC_Make Appointment_providingDetails_002: Test Cases/CURA_Test_Case/CURA_TC_Make Appointment/CURA_TC_Make Appointment_providingDetails_002
+
+14-02-2024T17:13:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-02-2024T17:13:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+14-02-2024T17:13:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-02-2024T17:13:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-02-2024T17:13:22 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:13:26 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+14-02-2024T17:13:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+14-02-2024T17:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78' is clicked on
+
+14-02-2024T17:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78' is clicked on
+
+14-02-2024T17:13:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:13:30 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_username'
+
+14-02-2024T17:13:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:13:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_password'
+
+14-02-2024T17:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Login' is clicked on
+
+14-02-2024T17:13:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+14-02-2024T17:13:33 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+14-02-2024T17:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_hospital_readmission")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+14-02-2024T17:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+14-02-2024T17:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_programs' is clicked on
+
+14-02-2024T17:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_programs' is clicked on
+
+14-02-2024T17:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_visit_date")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+14-02-2024T17:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_visit_date' is clicked on
+
+14-02-2024T17:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/td_24")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/td_24' is clicked on
+
+14-02-2024T17:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/td_24' is clicked on
+
+14-02-2024T17:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/textarea_comment"), "Booking Appointment"): Text 'Booking Appointment' is set on object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/textarea_comment'
+
+14-02-2024T17:13:36 - [MESSAGE][PASSED] - Text 'Booking Appointment' is set on object 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/textarea_comment'
+
+14-02-2024T17:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+14-02-2024T17:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+14-02-2024T17:13:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-02-2024T17:13:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-02-2024T17:12:33 - [TEST_SUITE][PASSED] - CURA_TS_Basic_Make Appointment_Providing Details_002: Test Cases/CURA_Test_Case/CURA_TC_Make Appointment/CURA_TC_Make Appointment_providingDetails_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

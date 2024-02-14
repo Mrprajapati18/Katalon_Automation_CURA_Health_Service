@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20240214_144529</name>
+   <tag></tag>
+   <displayName>20240214_144529</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20240214_144529/CURA_CrossBrowser_TS_TestCloud/CURA_CrossBrowser_TS_TestCloud_Valid_LogIn_001/20240214_144531</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/CURA_CrossBrowser_TS_TestCloud/New Test Suite Collection</testSuiteCollectionId>
+</ReportCollectionEntity>
