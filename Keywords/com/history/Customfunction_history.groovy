@@ -1,4 +1,4 @@
-package com.redirect.login
+package com.history
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,10 +20,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class Customfunction_Redirect_login_001 {
-
+public class Customfunction_history {
 	@Keyword
 	def print() {
 		print(".....Hello....Dosto....\n");
 	}
 }
+
+

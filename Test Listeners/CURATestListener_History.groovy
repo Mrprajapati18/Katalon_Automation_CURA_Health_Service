@@ -22,42 +22,40 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
-class CURATestListener_MakeAppointment {
+class CURATestListener_History {
 	/**
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestCase
-//	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
-//		println testCaseContext.getTestCaseId()
-//		println testCaseContext.getTestCaseVariables()
-//	}
-
+	def onTestCaseStart() {
+	println(" I Am inside testcasestart Function ")
+	}
+	
 	/**
 	 * Executes after every test case ends.
 	 * @param testCaseContext related information of the executed test case.
-	 */
+   */
 	@AfterTestCase
-//	def sampleAfterTestCase(TestCaseContext testCaseContext) {
-//		println testCaseContext.getTestCaseId()
-//		println testCaseContext.getTestCaseStatus()
-//	}
+	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+		println(" I Am sampleAfterTestCase Function ")
+	}
 
 	/**
 	 * Executes before every test suite starts.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-//	@BeforeTestSuite
-//	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
-//		println testSuiteContext.getTestSuiteId()
-//	}
+		@BeforeTestSuite
+	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+	println(" I Am sampleBeforeTestSuite Function ")
+	}
 
 	/**
 	 * Executes after every test suite ends.
 	 * @param testSuiteContext: related information of the executed test suite.
 	 */
-	@AfterTestSuite
-//	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
-//		println testSuiteContext.getTestSuiteId()
-//	}
-//}
+    @AfterTestSuite
+	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+	println(" I Am sampleAfterTestSuite Function ")
+	}
+}

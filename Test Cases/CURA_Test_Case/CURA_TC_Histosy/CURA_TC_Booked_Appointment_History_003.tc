@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CURA_TC_Booked_Appointment_History_003</name>
+   <tag>smoke</tag>
+   <comment></comment>
+   <testCaseGuid>12440806-2afa-482b-a84e-d49e1b1a4805</testCaseGuid>
+</TestCaseEntity>

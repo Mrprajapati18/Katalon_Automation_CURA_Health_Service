@@ -15,7 +15,7 @@
       <guid>cf9d28bc-f366-4839-bfd8-5ed4d1420641</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CURA_Data Driven _LogIn_001/CURA_DDT_Redirect_Login_001</testCaseId>
+      <testCaseId>Test Cases/CURA_Data Driven _LogIn/CURA_DDT_Redirect_Login_001</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f943ff8f-5870-460e-b100-ce2a7c8032cf</id>

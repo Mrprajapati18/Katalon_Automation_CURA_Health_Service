@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CURA_TC_Login_InvalidUser_Name_001</name>
+   <name>CURA_TC_Logout_004</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>06bed16e-74fb-46d9-ae50-1e8f4a333ef9</testCaseGuid>
+   <testCaseGuid>ac5a73db-3011-4ab3-82d5-023f43cbd044</testCaseGuid>
 </TestCaseEntity>
