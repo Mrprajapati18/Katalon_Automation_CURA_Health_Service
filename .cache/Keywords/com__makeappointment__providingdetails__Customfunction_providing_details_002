@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "4B0974FDD3A88A2CCB21A70C9032F10D",
+  "keywordClasses": [
+    {
+      "name": "com.makeappointment.providingdetails.Customfunction_providing_details_002",
+      "keywordMethods": [
+        {
+          "name": "print",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

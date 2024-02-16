@@ -49,7 +49,5 @@ WebUI.setText(findTestObject('Object Repository/CURA_TC_Make Appointment_providi
 
 WebUI.click(findTestObject('Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.sleep(4000)
-
 WebUI.closeBrowser()
 

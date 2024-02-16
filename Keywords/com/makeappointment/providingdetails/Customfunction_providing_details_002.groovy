@@ -1,4 +1,4 @@
-package com.invaliduser.login
+package com.makeappointment.providingdetails
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,11 +20,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class Customfunction_invalid_login_001 {
-
+public class Customfunction_providing_details_002 {
+	
 	@Keyword
 	def print() {
 
-		print("....Hello Durgesh...\n");
+		print("....Hello Durgesh Namaste ji...\n");
 	}
 }

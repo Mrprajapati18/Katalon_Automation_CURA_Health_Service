@@ -25,9 +25,11 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/input_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/input_username'), 
+    'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/input_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/input_password'), 
+    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/button_Login'))
 
@@ -40,7 +42,8 @@ WebUI.click(findTestObject('Object Repository/CURA_TC_Make Appointment_without P
 
 WebUI.click(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/input_visit_date'))
 
-WebUI.setText(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/textarea_comment'), 'Book Appointment')
+WebUI.setText(findTestObject('Object Repository/CURA_TC_Make Appointment_without Providing_Details_OR_002/Page_CURA Healthcare Service/textarea_comment'), 
+    'Book Appointment')
 
 WebUI.sleep(4000)
 
