@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Basic_TS_History_003,Edge Chromium 121,,,17-02-2024 02:04:29,17-02-2024 02:08:39,4m - 9.846s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001,Edge Chromium 121,,,17-02-2024 02:04:29,17-02-2024 02:05:28,59.403s,PASSED
+Start listener action : onTestCaseStart,Edge Chromium 121,,,17-02-2024 02:04:29,17-02-2024 02:04:29,0.005s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,17-02-2024 02:04:29,17-02-2024 02:04:31,2.185s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 121,,,17-02-2024 02:04:31,17-02-2024 02:05:21,49.142s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 121,,,17-02-2024 02:05:21,17-02-2024 02:05:24,3.474s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Edge Chromium 121,,,17-02-2024 02:05:24,17-02-2024 02:05:25,0.729s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 121,,,17-02-2024 02:05:25,17-02-2024 02:05:25,0.493s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 121,,,17-02-2024 02:05:25,17-02-2024 02:05:28,2.807s,PASSED
+closeBrowser(),Edge Chromium 121,,,17-02-2024 02:05:28,17-02-2024 02:05:28,0.346s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,17-02-2024 02:05:28,17-02-2024 02:05:28,0.003s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Histosy/CURA_TC_Booked_Appointment_History_003,Edge Chromium 121,,smoke,17-02-2024 02:05:28,17-02-2024 02:07:35,2m - 6.260s,PASSED
+Start listener action : onTestCaseStart,Edge Chromium 121,,,17-02-2024 02:05:28,17-02-2024 02:05:28,0.003s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,17-02-2024 02:05:29,17-02-2024 02:05:29,0.794s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 121,,,17-02-2024 02:05:29,17-02-2024 02:06:56,1m - 26.323s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 121,,,17-02-2024 02:06:56,17-02-2024 02:06:58,1.929s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Edge Chromium 121,,,17-02-2024 02:06:58,17-02-2024 02:06:58,0.684s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 121,,,17-02-2024 02:06:58,17-02-2024 02:06:59,0.445s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 121,,,17-02-2024 02:06:59,17-02-2024 02:07:01,1.940s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Edge Chromium 121,,,17-02-2024 02:07:01,17-02-2024 02:07:02,1.079s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/label_Apply for hospital readmission""))",Edge Chromium 121,,,17-02-2024 02:07:02,17-02-2024 02:07:02,0.343s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/input_programs""))",Edge Chromium 121,,,17-02-2024 02:07:02,17-02-2024 02:07:02,0.349s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/input_visit_date""))",Edge Chromium 121,,,17-02-2024 02:07:02,17-02-2024 02:07:03,0.363s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/td_22""))",Edge Chromium 121,,,17-02-2024 02:07:03,17-02-2024 02:07:03,0.452s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/textarea_comment""), ""Booked Appointment"")",Edge Chromium 121,,,17-02-2024 02:07:03,17-02-2024 02:07:04,0.802s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/button_Book Appointment""))",Edge Chromium 121,,,17-02-2024 02:07:04,17-02-2024 02:07:06,1.937s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/i_fa fa-bars""))",Edge Chromium 121,,,17-02-2024 02:07:06,17-02-2024 02:07:06,0.369s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_History_Details_OR_003/Page_CURA Healthcare Service/a_History""))",Edge Chromium 121,,,17-02-2024 02:07:06,17-02-2024 02:07:30,23.880s,PASSED
+sleep(4000),Edge Chromium 121,,,17-02-2024 02:07:30,17-02-2024 02:07:34,4.029s,PASSED
+closeBrowser(),Edge Chromium 121,,,17-02-2024 02:07:34,17-02-2024 02:07:35,0.377s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,17-02-2024 02:07:35,17-02-2024 02:07:35,0.002s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Make Appointment/CURA_TC_Make Appointment_providingDetails_002,Edge Chromium 121,,smoke,17-02-2024 02:07:35,17-02-2024 02:08:39,1m - 3.880s,PASSED
+Start listener action : onTestCaseStart,Edge Chromium 121,,,17-02-2024 02:07:35,17-02-2024 02:07:35,0.002s,PASSED
+"openBrowser("""")",Edge Chromium 121,,,17-02-2024 02:07:35,17-02-2024 02:07:36,0.824s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 121,,,17-02-2024 02:07:36,17-02-2024 02:08:23,47.660s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/a_Make Appointment""))",Edge Chromium 121,,,17-02-2024 02:08:23,17-02-2024 02:08:27,3.308s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/body_CURA Healthcare                       _fb9a78""))",Edge Chromium 121,,,17-02-2024 02:08:27,17-02-2024 02:08:27,0.349s,PASSED
+"setText(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Edge Chromium 121,,,17-02-2024 02:08:27,17-02-2024 02:08:28,0.685s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 121,,,17-02-2024 02:08:28,17-02-2024 02:08:28,0.437s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Login""))",Edge Chromium 121,,,17-02-2024 02:08:28,17-02-2024 02:08:29,1.430s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Edge Chromium 121,,,17-02-2024 02:08:29,17-02-2024 02:08:30,0.931s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_hospital_readmission""))",Edge Chromium 121,,,17-02-2024 02:08:30,17-02-2024 02:08:31,0.339s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_programs""))",Edge Chromium 121,,,17-02-2024 02:08:31,17-02-2024 02:08:31,0.346s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/input_visit_date""))",Edge Chromium 121,,,17-02-2024 02:08:31,17-02-2024 02:08:31,0.359s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/td_24""))",Edge Chromium 121,,,17-02-2024 02:08:31,17-02-2024 02:08:32,0.490s,PASSED
+"setText(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/textarea_comment""), ""Booking Appointment"")",Edge Chromium 121,,,17-02-2024 02:08:32,17-02-2024 02:08:33,0.816s,PASSED
+"click(findTestObject(""Object Repository/CURA_TC_Make Appointment_providing Details_OR_002/Page_CURA Healthcare Service/button_Book Appointment""))",Edge Chromium 121,,,17-02-2024 02:08:33,17-02-2024 02:08:34,1.395s,PASSED
+sleep(4000),Edge Chromium 121,,,17-02-2024 02:08:34,17-02-2024 02:08:38,4.012s,PASSED
+closeBrowser(),Edge Chromium 121,,,17-02-2024 02:08:38,17-02-2024 02:08:39,0.393s,PASSED
+Start listener action : sampleAfterTestCase,Edge Chromium 121,,,17-02-2024 02:08:39,17-02-2024 02:08:39,0.002s,PASSED

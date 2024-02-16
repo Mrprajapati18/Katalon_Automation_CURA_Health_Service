@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Basic_TS_Login_001,Chrome 121.0.0.0,,,17-02-2024 00:50:39,17-02-2024 00:53:53,3m - 14.176s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001,Chrome 121.0.0.0,,smoke,17-02-2024 00:50:39,17-02-2024 00:51:43,1m - 3.348s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,17-02-2024 00:50:39,17-02-2024 00:50:41,2.023s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,17-02-2024 00:50:41,17-02-2024 00:51:36,54.840s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,17-02-2024 00:51:36,17-02-2024 00:51:38,1.965s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 121.0.0.0,,,17-02-2024 00:51:38,17-02-2024 00:51:39,0.725s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,17-02-2024 00:51:39,17-02-2024 00:51:40,0.523s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,17-02-2024 00:51:40,17-02-2024 00:51:42,2.818s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,17-02-2024 00:51:42,17-02-2024 00:51:43,0.205s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_InvalidUser_Name_001,Chrome 121.0.0.0,,smoke,17-02-2024 00:51:43,17-02-2024 00:52:50,1m - 7.517s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,17-02-2024 00:51:43,17-02-2024 00:51:44,0.830s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,17-02-2024 00:51:44,17-02-2024 00:52:44,1m - 0.613s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,17-02-2024 00:52:44,17-02-2024 00:52:47,2.512s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username""), ""John DOe"")",Chrome 121.0.0.0,,,17-02-2024 00:52:47,17-02-2024 00:52:47,0.771s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,17-02-2024 00:52:47,17-02-2024 00:52:48,0.477s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,17-02-2024 00:52:48,17-02-2024 00:52:50,2.016s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,17-02-2024 00:52:50,17-02-2024 00:52:50,0.169s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_Redirect_page_001,Chrome 121.0.0.0,,,17-02-2024 00:52:50,17-02-2024 00:53:53,1m - 3.016s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,17-02-2024 00:52:50,17-02-2024 00:52:51,0.749s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,17-02-2024 00:52:51,17-02-2024 00:53:46,54.640s,PASSED
+"click(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,17-02-2024 00:53:46,17-02-2024 00:53:48,2.667s,PASSED
+"setText(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Chrome 121.0.0.0,,,17-02-2024 00:53:48,17-02-2024 00:53:49,0.744s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 121.0.0.0,,,17-02-2024 00:53:49,17-02-2024 00:53:49,0.494s,PASSED
+"click(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,17-02-2024 00:53:49,17-02-2024 00:53:52,2.549s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,17-02-2024 00:53:52,17-02-2024 00:53:53,0.963s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,17-02-2024 00:53:53,17-02-2024 00:53:53,0.134s,PASSED

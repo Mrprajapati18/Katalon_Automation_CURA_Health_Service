@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CURA_Basic_TS_Login_001,Firefox 122.0,,,17-02-2024 00:14:31,17-02-2024 00:18:39,4m - 8.400s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_ValidUser_Name_001,Firefox 122.0,,smoke,17-02-2024 00:14:31,17-02-2024 00:15:28,56.129s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,17-02-2024 00:14:32,17-02-2024 00:14:32,0.029s,PASSED
+"openBrowser("""")",Firefox 122.0,,,17-02-2024 00:14:32,17-02-2024 00:14:37,5.307s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,17-02-2024 00:14:37,17-02-2024 00:15:17,39.688s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,17-02-2024 00:15:17,17-02-2024 00:15:22,5.716s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Firefox 122.0,,,17-02-2024 00:15:22,17-02-2024 00:15:23,0.663s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 122.0,,,17-02-2024 00:15:23,17-02-2024 00:15:23,0.406s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_Login_ValidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,17-02-2024 00:15:23,17-02-2024 00:15:26,2.940s,PASSED
+closeBrowser(),Firefox 122.0,,,17-02-2024 00:15:26,17-02-2024 00:15:28,1.159s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,17-02-2024 00:15:28,17-02-2024 00:15:28,0.000s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_InvalidUser_Name_001,Firefox 122.0,,smoke,17-02-2024 00:15:28,17-02-2024 00:17:34,2m - 6.269s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,17-02-2024 00:15:28,17-02-2024 00:15:28,0.016s,PASSED
+"openBrowser("""")",Firefox 122.0,,,17-02-2024 00:15:28,17-02-2024 00:15:31,3.377s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,17-02-2024 00:15:31,17-02-2024 00:17:26,1m - 55.360s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,17-02-2024 00:17:26,17-02-2024 00:17:30,3.243s,PASSED
+"setText(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_username""), ""John DOe"")",Firefox 122.0,,,17-02-2024 00:17:30,17-02-2024 00:17:30,0.614s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 122.0,,,17-02-2024 00:17:30,17-02-2024 00:17:31,0.359s,PASSED
+"click(findTestObject(""Object Repository/CURA_Pages_LogIn_InvalidUser_Name_OR_001/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,17-02-2024 00:17:31,17-02-2024 00:17:33,2.205s,PASSED
+closeBrowser(),Firefox 122.0,,,17-02-2024 00:17:33,17-02-2024 00:17:34,1.029s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,17-02-2024 00:17:34,17-02-2024 00:17:34,0.000s,PASSED
+,,,,,,,
+Test Cases/CURA_Test_Case/CURA_TC_Login/CURA_TC_Login_Redirect_page_001,Firefox 122.0,,,17-02-2024 00:17:34,17-02-2024 00:18:39,1m - 5.671s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 122.0,,,17-02-2024 00:17:34,17-02-2024 00:17:34,0.000s,PASSED
+"openBrowser("""")",Firefox 122.0,,,17-02-2024 00:17:34,17-02-2024 00:17:37,3.411s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 122.0,,,17-02-2024 00:17:37,17-02-2024 00:18:28,50.532s,PASSED
+"click(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 122.0,,,17-02-2024 00:18:28,17-02-2024 00:18:32,4.093s,PASSED
+"setText(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_username""), ""John Doe"")",Firefox 122.0,,,17-02-2024 00:18:32,17-02-2024 00:18:32,0.567s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/input_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 122.0,,,17-02-2024 00:18:32,17-02-2024 00:18:33,0.336s,PASSED
+"click(findTestObject(""Object Repository/CURA_pages_Login_Redirect_OR_001/Page_CURA Healthcare Service/button_Login""))",Firefox 122.0,,,17-02-2024 00:18:33,17-02-2024 00:18:34,1.370s,PASSED
+"openBrowser("""")",Firefox 122.0,,,17-02-2024 00:18:34,17-02-2024 00:18:38,4.207s,PASSED
+closeBrowser(),Firefox 122.0,,,17-02-2024 00:18:38,17-02-2024 00:18:39,1.083s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 122.0,,,17-02-2024 00:18:39,17-02-2024 00:18:39,0.000s,PASSED

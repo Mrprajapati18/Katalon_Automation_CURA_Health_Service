@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "ACE24BAD83553597AB5E8FDC88415CE2",
+  "keywordClasses": [
+    {
+      "name": "com.history.Customfunction_history",
+      "keywordMethods": [
+        {
+          "name": "print",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
